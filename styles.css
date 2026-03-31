@@ -84,6 +84,8 @@ nav a.active {
 
 .article code {
     font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+    padding: 0 3px;
 }
 
 .article img {
