@@ -1,4 +1,47 @@
-/* Тут пиши основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-header {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.header-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-decoration: none;
+    line-height: 36px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: #d0021b;
+}
 
 
 @media (max-width: 800px) {
