@@ -41,6 +41,8 @@ nav a:hover {
 
 nav a.active {
     color: #d0021b;
+}
+
 .article {
     max-width: 700px;
     margin: 0 auto;
@@ -97,3 +99,4 @@ nav a.active {
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
