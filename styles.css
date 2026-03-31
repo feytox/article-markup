@@ -95,8 +95,29 @@ nav a.active {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .article h1 {
+        font-size: 26px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .article h2 {
+        font-size: 22px;
+        line-height: 25px;
+        margin-top: 25px;
+        margin-bottom: 6px;
+    }
+
+    .article p {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+
+    .article img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
 
