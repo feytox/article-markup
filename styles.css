@@ -9,7 +9,7 @@
 }
 
 .header-container {
-    max-width: 1475px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -103,6 +103,21 @@ nav a.active {
 }
 
 @media (max-width: 800px) {
+    .header-container {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
     .article h1 {
         font-size: 26px;
         line-height: 28px;
