@@ -9,16 +9,22 @@
 }
 
 .header-container {
-    max-width: 700px;
+    max-width: 1475px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
     align-items: center;
     gap: 30px;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+    background-color: #faf9f8;
 }
 
 .logo img {
     display: block;
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 nav ul {
@@ -95,8 +101,49 @@ nav a.active {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .site-header {
+        border-bottom: 1px solid #e2e2e2;
+    }
+
+    .header-container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .logo img {
+        display: block;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+
+    nav a {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 24px;
+        color: #333333;
+        text-decoration: none;
+        line-height: 36px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    nav a.active {
+        color: #d0021b;
+    }
 }
 
